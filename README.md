@@ -1,3 +1,3 @@
-# 🔎Wrap Ups
+# 🔎📝Courses Notes
 -------------------------------------------------------------
-### This Repository Contains The Notes Which I Take From The Courses
+This Repository Contains <b font-><strong>The Notes</strong></b> which I take from The Courses 

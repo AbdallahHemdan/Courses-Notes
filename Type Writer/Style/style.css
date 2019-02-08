@@ -1,42 +1,51 @@
 body {
-  background-color: rgb(58, 57, 57);
-  padding-top: 80px;
-  font-family: monospace;
-  display: flex;
-
-  /* Used To Center The Content in The Page */
-  justify-content: center;
+    background: rgb(255, 255, 255);
+    background-image: url('adventure-albay-clouds-672358.jpg');
+    background-size: 100%;
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    margin: 150px 0 0 20px;
+    padding: 0px;
 }
 
 .typewriter h1 {
-  color: rgb(255, 73, 1);
-  overflow: hidden;
-  border-right: 2px solid orange;
-  white-space: nowrap;
-  font-size: 80px;
-  margin: 0 auto;
-  letter-spacing: 2px;
-
-  animation: typing 5s steps(30, end), blink-caret 0.5s step-end infinite;
+    color: rgb(255, 0, 0);
+    font-family: monospace;
+    font-size: 70px;
+    
+    overflow: hidden;
+    border-right: 2px solid rgb(255, 136, 0);
+    white-space: nowrap;
+    letter-spacing: 2px;
+  
+    animation:
+        typing 5s steps(20, end),
+        blink-caret .5s step-end infinite;
+}
+.Tempi{
+    color:rgb(0, 0, 0);
 }
 
 @keyframes typing {
-  from {
-    width: 0;
-  }
+    from {
+        width: 0
+    }
 
-  to {
-    width: 100%;
-  }
+    to {
+        width: 100%
+    }
 }
 
-@keyframes blink-caret {
-  from,
-  to {
-    border-color: transparent;
-  }
 
-  50% {
-    border-color: orange;
-  }
+@keyframes blink-caret {
+
+    from,
+    to {
+        border-color: transparent
+    }
+
+    50% {
+        border-color: rgb(60, 66, 61);
+    }
 }

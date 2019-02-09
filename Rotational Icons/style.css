@@ -65,22 +65,33 @@ body {
     transform: rotate(0deg);
     color: #FFFFFF;
     transition-duration: 1s;
-    font-size:23px;
+    font-size: 23px;
+    text-shadow: 0px 1px 0px #999,
+        0px 0.5px 0px #888, 0px 4px 0px #777, 0px 4px 0px #666,
+        0px 5px 0px #555, 0px 6px 0px #444, 0px 5px 0px #333,
+        0px 5px 9px #001135;
 }
 
 .LinkedIn:hover {
     background-color: #d32f2f;
     color: rgb(255, 255, 255);
     transform: rotate(0deg);
-    font-size:22px;
+    font-size: 22px;
     transition-duration: 1s;
+    text-shadow: 0px 1px 0px #999,
+        0px 0.5px 0px #888, 0px 4px 0px #777, 0px 4px 0px #666,
+        0px 5px 0px #555, 0px 6px 0px #444, 0px 5px 0px #333,
+        0px 5px 9px #001135;
 }
 
 .YouTube:hover {
     transform: rotate(0deg);
     transition-duration: 1s;
-    font-size:23px;
+    font-size: 23px;
     color: #FFFFFF;
     background-color: #03dd44;
-
+    text-shadow: 0px 1px 0px #999,
+        0px 0.5px 0px #888, 0px 4px 0px #777, 0px 4px 0px #666,
+        0px 5px 0px #555, 0px 6px 0px #444, 0px 5px 0px #333,
+        0px 5px 9px #001135;
 }

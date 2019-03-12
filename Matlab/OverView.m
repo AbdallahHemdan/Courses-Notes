@@ -11,24 +11,22 @@ format compact
  
 % The ; suppresses showing the variable assignment
  
-% name = input("What's your name : ", 's');
+name = input("What's your name : ", 's');
  
 % Checks to make sure the user entered something
  
-% if ~isempty(vInput)
- 
-% %s puts the string value in the output
- 
-% fprintf("Hello %s\n", name)
- 
-% end
+if ~isempty(vInput)
+
+% %s puts the string value in the output 
+    fprintf("Hello %s\n", name)
+end
  
  
 % You can receive vectors
  
-% vInput = input("Enter a vector : ");
+vInput = input("Enter a vector : ");
  
-% disp(vInput)
+disp(vInput)
  
  
 % ----- VARIABLES -----
@@ -47,12 +45,10 @@ double, single(generic int) and unsigned uint8, ...
  
 c1 = 'A'
  
-% class displays the data type
- 
+% class displays the data type 
 class(c1)
  
 % You can store strings in single quotes
- 
 s1 = 'A string'
 class(s1)
  
@@ -645,15 +641,12 @@ employees = table(name, age, salary, 'RowName', id)
 meanSalary = mean(employees.salary)
  
 % Add column of data
- 
 employees.vDays = [10; 14; 16]
  
 % Show just 2 by id
- 
 employees({'1', '2'},:)
  
 % Get by name
- 
 employees(ismember(employees.name,{'Jim' 'Dwight'}), :)
  
  
@@ -726,14 +719,15 @@ a3 = Trapezoid(10, 4, 6);
 disp(a3)
 a3.getArea
  
-%{
+
+
  
 % ----- ANONYMOUS FUNCTIONS -----
  
 % Anonymous functions are one line functions
  
 % nameOfFunc = @ (attr) functionBody;
- 
+
 cubeVol = @ (l, w, h) l * w * h;
 cV = cubeVol(2,2,2)
  
@@ -877,10 +871,9 @@ else
 end
 end
  
-%}
  
  
-%{
+
  
 % ----- PLOTTING -----
  
@@ -933,4 +926,4 @@ title('Money made Today')
  
 figure(2)
 bar(xVals, yVals, 'r')
-%}
+

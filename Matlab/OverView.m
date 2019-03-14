@@ -1,6 +1,17 @@
-% Keeps the output compact
- 
+% Keeps the output compact 
 format compact
+
+% This is a single line comment
+
+%{
+   This 
+   is 
+   a
+   multiple 
+   line 
+   comment ^^ 
+%}
+
  
 % To stop execution in command window Ctrl + c
  
@@ -9,12 +20,11 @@ format compact
  
 % Receive string input by using 's'
  
-% The ; suppresses showing the variable assignment
+% The (;) suppresses showing the variable assignment
  
 name = input("What's your name : ", 's');
  
 % Checks to make sure the user entered something
- 
 if ~isempty(vInput)
 
 % %s puts the string value in the output 
@@ -24,8 +34,7 @@ end
  
 % You can receive vectors
  
-vInput = input("Enter a vector : ");
- 
+vInput = input("Enter a vector : "); 
 disp(vInput)
  
  
@@ -36,44 +45,51 @@ disp(vInput)
 Variables start with a letter and then numbers and _
 Data types are classes which also have associated 
 methods for working with that data
-Types include int8, int16, int32, int64, char, logical,
+Types include :
+int8, int16, int32, int64, char, logical(bool in cpp),
 double, single(generic int) and unsigned uint8, ...
+
 %}
  
  
 % chars hold single characters
- 
 c1 = 'A'
  
-% class displays the data type 
+
+% class displays the data type Like type of in cpp 
 class(c1)
  
+
 % You can store strings in single quotes
 s1 = 'A string'
 class(s1)
  
+
 % Booleans map true to 1 and false to 0
- 
 5 > 2
 b1 = true
  
 % Show max & min values
- 
 intmin('int8')
 intmax('int8')
-% Largest double
- 
+
+
+% Largest double 
 realmax
-% Largest int
- 
+
+
+% Largest int 
 realmax('single')
+
  
-% You can continue expressions using ...
- 
+% If you have a long expression you can continue expressions using ...
 % Suppress output with a ;
+
  
+% This'll print 15 on the screen
 v1 = 1 + 2 + 3 ...
-+ 4;
++ 4 + 5;  
+
  
 % ----- CASTING -----
  
@@ -82,53 +98,55 @@ v1 = 1 + 2 + 3 ...
 v2 = 8
 class(v2)
  
-% Cast to int8
- 
+
+% Cast to int8 
 v3 = int8(v2)
 class(v3)
  
 % Convert char to double
- 
 v4 = double('A')
  
-% Convert to char
- 
+
+% Convert to char 
+% 64 ==> '@'
 v5 = char(64)
+
  
 % ----- MATH OPERATORS & SPRINTF -----
  
 % sprintf formats a string
  
-% %d : Integers, %f : Floats, %e : exponential notation
+% (%d) : Integers, (%f) : Floats, (%e) : exponential notation
  
-% %c : Characters, %s : Strings
+% (%c) : Characters, (%s) : Strings
  
  
 fprintf('5 + 4 = %d\n', 5 + 4)
 fprintf('5 - 4 = %d\n', 5 - 4)
 fprintf('5 * 4 = %d\n', 5 * 4)
  
+
 % Define you want only 2 decimals
- 
 fprintf('5 / 4 = %0.2f\n', 5 / 4)
  
+
 % Exponentiation
- 
 fprintf('5^4 = %d\n', 5^4) 
+
  
 % Modulus (Escape % by doubling)
- 
 fprintf('5 %% 4 = %d\n', mod(5,4))
  
+
 % Generate a random value between 10 & 20
- 
 randi([10,20])
  
-% Precision is accurate to 15 digits by default
- 
+
+% Precision is accurate to 15 digits by default 
 bF = 1.1111111111111111
 bF2 = bF + 0.1111111111111111
 fprintf("bF2 = %0.16f\n", bF2)
+
  
 % ----- MATH FUNCTIONS -----
  
@@ -140,12 +158,13 @@ fprintf('floor(2.45) = %d\n', floor(2.45))
 fprintf('ceil(2.45) = %d\n', ceil(2.45))
 fprintf('round(2.45) = %d\n', round(2.45))
 fprintf('exp(1) = %f\n', exp(1)) % e^x
-fprintf('log(100) = %f\n', log(100))
+fprintf('log(100) = %f\n', log(100)) %ln(100)
 fprintf('log10(100) = %f\n', log10(100))
 fprintf('log2(100) = %f\n', log2(100))
 fprintf('sqrt(100) = %f\n', sqrt(100))
 fprintf('90 Deg to Radians = %f\n', deg2rad(90))
  
+
 % ----- CONDITIONALS -----
  
 % Relational Operators : >, <, >=, <=, == and ~=
@@ -182,81 +201,97 @@ switch age
         disp("Stay Home")
 end
  
+
 % ----- VECTORS -----
  
 % Vectors are either row or column vectors or 
  
+
 % 1 dimensional arrays
- 
 vt1 = [5 3 2 1]
  
-% Elements in vector
- 
+
+% Number of elements in vector
 vL = length(vt1)
  
-% Sort in ascending order or (, 'descend')
- 
+
+% Sort in ascending order 
 vt1 = sort(vt1)
- 
-% Create a range
- 
+
+
+
+% Sort in descending order
+vt1 = sort(vt1,'descend')
+
+
+% Create a vector with range 
 vt2 = 5:10
  
+
 % Create a range with a step
+% start:step:end 
+vt3 = 1:2:10    % 1    3    5    7    9
  
-vt3 = 2:2:10
- 
+
 % Concatenate vectors
- 
 vt4 = [vt1 vt2]
  
+
+%{
+Note:
+    unlike other programming languages vector is 1 based (1st element at index 1) 
+%}
+
+
 % Get a value with an index starting at 1
+vt4(1) % 5
  
-vt4(1)
- 
+
 % Get the last value
- 
 vtEnd = vt4(end)
  
+
 % Change a value
- 
 vt4(1) = 12
  
+
 % Add to the end (0 is added to indexes between)
- 
 vt4(11) = 33
  
+
 % Get 1st 3 values
- 
 vt4(1:3)
+
  
-% Get 2, 4th and 6th
- 
+% Get 2nd, 4th and 6th 
 vt4([2 4 6])
  
+
 % Create a column vector
- 
 vt5 = [2;3;4]
-% And another row
- 
+
+
+% And another row 
 vt6 = [1 2 3]
  
+
 % Vector multiplication
- 
 % We need a column and row vector
  
+
 % Multiply vt6(1,1) by each row in vt5(1,:)
- 
 vtMult = vt5 * vt6
  
+
 % Dot Product
- 
 % (1*4) + (5*2) + (3*6) = 32
- 
 vt7 = [4 5 6]
-% ' Tranposes the vector
- 
+
+
+% ' Tranposes the vector 
 vtDotP = vt6 * vt7'
+
+
 % The dot function does the same
 vtDotP2 = dot(vt6, vt7)
  
@@ -267,13 +302,16 @@ vtDotP2 = dot(vt6, vt7)
 % (2,1) = (a3*b1) - (a1*b3)
 % (3,1) = (a1*b2) - (a2*b1)
 vtCross = cross(vt6, vt7)
+
  
 % Create linearly spaced vector with for elements 
 % between 1 and 20
 vt8 = linspace(1,20,4)
+
  
 % Logarithmically spaced vector 10^1, 10^2, 10^3
 vt9 = logspace(1,3,3)
+
  
 % ----- MATRICES -----
 % Matrices have rows and columns
@@ -873,7 +911,7 @@ end
  
  
  
-
+5
  
 % ----- PLOTTING -----
  
@@ -926,4 +964,3 @@ title('Money made Today')
  
 figure(2)
 bar(xVals, yVals, 'r')
-

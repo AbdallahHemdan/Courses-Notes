@@ -25,7 +25,7 @@ format compact
 name = input("What's your name : ", 's');
  
 % Checks to make sure the user entered something
-if ~isempty(vInput)
+if ~isempty(name)
 
 % %s puts the string value in the output 
     fprintf("Hello %s\n", name)

@@ -1,6 +1,6 @@
-	/// Check if a binary tree is a binary-search-tree
-	/// My approach is to use In-Order traversal to get the ascending order of the nodes
-	/// then check if there order in ascending order or not 
+//Q: Check if a binary tree is a binary-search-tree
+// My approach is to use In-Order traversal to get the ascending order of the nodes
+// then check if there order in ascending order or not 
 
 	vector<int> Nodes; 
 

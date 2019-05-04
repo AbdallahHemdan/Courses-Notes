@@ -1,5 +1,5 @@
 // Author : Abdallah Hemdan
-* Heap Sort :
+2) Heap Sort : O(nLogn)
 --------------
 	- Heap Sort is also a comparision based sorting technique based on "Binary Heap Data Structure"
 

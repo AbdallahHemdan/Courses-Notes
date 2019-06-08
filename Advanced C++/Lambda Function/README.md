@@ -147,4 +147,42 @@ int main() {
 	};
 	PassAll_2();
 ```  
+## Lambda in Classes
 
+```cpp
+#include <iostream>
+#include <functional>
+
+using namespace std;
+
+template<int aValue, int bValue>
+class ABC
+{
+public:
+	ABC() {
+		a = aValue; 
+		b = bValue; 
+	}
+	// Here We have a Problem which is :
+	// InSide Lambda function we can not access a,b 
+	// Also we can not use Capture_List to Capture them inside our Lambda
+	
+	// The Soluion is to pass (this) into our capture list and use
+	int Sum() {
+		return [this]() -> int{
+			return a + b;  // OR return this->a + this->b;
+		}();
+	}
+	
+private:
+	int a, b; 
+};
+
+void ClassDemo() {
+	ABC<100,400> abc; 
+	cout << abc.Sum() << endl;
+}
+int main() {
+	ClassDemo();
+}
+```

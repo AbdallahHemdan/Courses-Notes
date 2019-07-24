@@ -107,16 +107,17 @@ int main() {
 
 	cout << pq.Top() << " ";
 	pq.Pop();
-  
-	cout << pq.Top() << " ";
-	pq.Pop();
 
 	cout << pq.Top() << " ";
 	pq.Pop();
 
-	cout << endl << std::boolalpha << pq.Empty();
+	cout << pq.Top() << " ";
+	pq.Pop();
 
-	pq.Top();	// Top operation on an empty heap (Throw exception)
-	pq.Pop();	// Pop operation on an empty heap (Throw exception)
+	cout << endl;
+	cout << std::boolalpha << pq.Empty() << endl;
+
+	pq.Top();	// Top operation on an empty heap
+	pq.Pop();	// Pop operation on an empty heap
 
 }

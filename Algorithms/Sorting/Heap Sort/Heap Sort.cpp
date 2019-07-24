@@ -49,12 +49,14 @@ Code:
 			Heapify(Arr, n, Largest); // Recursively heapify the affected sub-tree 
 		}
 	}
-
-	void HeapSort(vector<int>& Arr, int n) {
+	void BuildHeap(){
 		// Build heap (rearrange array) 
 		for (int i = n / 2 - 1; i >= 0; i--) {
 			Heapify(Arr, n, i); 
 		}
+	}
+	void HeapSort(vector<int>& Arr, int n) {
+		BuildHeap(); // Build heap (rearrange array) 
 		// One by one extract an element from heap 
 		for (int i = n - 1; i >= 0; i--) {
 			swap(Arr[0], Arr[i]); 

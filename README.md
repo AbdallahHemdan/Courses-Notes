@@ -1,4 +1,4 @@
-## 📜Courses Notes
+### 📜Courses Notes
 *This Repository contains my notes which I take from course, tricks and a simple side project so simply its my __playing Area__..*
 
 ### 📌 List

@@ -2,6 +2,7 @@
 *This Repository contains my notes which I take from course, tricks and a simple side project so simply its my __playing Area__..*
 
 ### 📌 List
+- [Git Commands](https://github.com/AbdallahHemdan/Courses-Notes/blob/master/Git-Commands.md) 
 - [Sorting Algorithms](https://github.com/AbdallahHemdan/Courses-Notes/tree/master/Algorithms/Sorting) 
 - [Data Structures](https://github.com/AbdallahHemdan/Courses-Notes/tree/master/Data%20Structure) 
 - [HTML](https://github.com/AbdallahHemdan/Courses-Notes/tree/master/HTML) 
@@ -11,3 +12,4 @@
 - [MatLab](https://github.com/AbdallahHemdan/Courses-Notes/tree/master/Matlab)
 - [Type Writer](https://github.com/AbdallahHemdan/Courses-Notes/tree/master/Type%20Writer)
 - [Rotationl Icons](https://github.com/AbdallahHemdan/Courses-Notes/tree/master/Rotational%20Icons) 
+

@@ -1,3 +1,8 @@
+[![GitHub issues](https://img.shields.io/github/issues/AbdallahHemdan/Courses-Notes)](https://github.com/AbdallahHemdan/Courses-Notes/issues)
+[![GitHub forks](https://img.shields.io/github/forks/AbdallahHemdan/Courses-Notes)](https://github.com/AbdallahHemdan/Courses-Notes/network)
+[![GitHub stars](https://img.shields.io/github/stars/AbdallahHemdan/Courses-Notes)](https://github.com/AbdallahHemdan/Courses-Notes/stargazers)
+[![GitHub license](https://img.shields.io/github/license/AbdallahHemdan/Courses-Notes)](https://github.com/AbdallahHemdan/Courses-Notes/blob/master/LICENSE)
+
 ### 📜Courses Notes
 *This Repository contains my notes which I take from course, tricks and a simple side project so simply its my __playing Area__..*
 

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="" />
+    <title>Document</title>
+  </head>
+
+  <!-- There is an Special Event Handelers For The body tag 
+    onload = " " Used to Excute Some JS Scripts 
+    When The Page totaly Loaded ,
+
+    onunload = " " Used To Excute Some JS Scripts
+    When Your Going To Exit The Page -->
+
+  <body
+    onload="alert('Yaaaaa, The Page is Loaded');"
+    onunload="alert('Good  Bye');"
+  >
+    <!-- onmouseover ==> Excute The JS Script Just
+    on The Mouse Come Over The Content -->
+
+    <a
+      href="https://github.com/AbdallahHemdan"
+      target="_blanck"
+      onmouseover="alert('onmouseover Excuted');"
+      >GitHub(onmouseover)</a
+    >
+    <br />
+
+
+    <!-- onmouseout ==> It Don't Excute The JS Script While The Mouse become 
+    over it but when Just The Mouse Leave The Content-->
+    <a
+      href="https://github.com/AbdallahHemdan"
+      target="_blanck"
+      onmouseout="alert('onmouseout Excuted'); "
+      >GitHub(onmouseout)</a
+    >
+    <br />
+  </body>
+</html>

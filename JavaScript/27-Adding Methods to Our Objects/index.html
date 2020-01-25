@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script>
+      function Person(Name, Age) {
+        this.Name = Name;
+        this.Age = Age;
+
+        // Here We Tell The interprater That This Function is a Part
+        // of This Object So it now Called Method
+        // Do not Forget (Function Name Without Parantecis)
+        this.YearToRetire = YearsLeft;
+      }
+
+      function YearsLeft() {
+        let Left = 65 - this.Age;
+        return Left;
+      }
+
+      let Hemdan = new Person("Hemdan", 20);
+      let Omar = new Person("Omar", 10);
+    </script>
+    <title>Document</title>
+  </head>
+
+  <body>
+    <script>
+      document.write("Name: " + Hemdan.Name + "<br>");
+      document.write("Age: " + Hemdan.Age + "<br>");
+      document.write("Years Left To Retire: " + Hemdan.YearToRetire() + "<br>");
+
+      document.write("Name: " + Omar.Name + "<br>");
+      document.write("Age: " + Omar.Age + "<br>");
+      document.write("Years Left To Retire: " + Omar.YearToRetire() + "<br>");
+    </script>
+  </body>
+</html>

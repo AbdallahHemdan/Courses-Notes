@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let Arr = new Array(5);
+        for (let i = 0; i < 5; i++) {
+            Arr[i] = i;
+        }
+
+        /* The join() method joins the elements of an array into a string,
+        and returns the string. The elements will be separated by a specified
+        eparator. The default separator is comma (,).
+        
+        Syntax:
+        array.join(separator)
+        */
+
+        let Join = Arr.join(""); // The Separator is Nothing
+        document.write(Join + "<br>"); // 01234
+
+        // ----------------------------------------------------------------
+
+        /* The pop() method removes the last element of an array,
+        and returns that element. */
+
+        let Names = new Array("Ali", "Omar", "Mohamed", "Rokia");
+        document.write(Names + "<br>")
+        let popedElement = Names.pop();
+        document.write(popedElement + "<br>");
+        Names.pop();
+        document.write(Names + "<br>")
+</script>
+</body>
+
+</html>

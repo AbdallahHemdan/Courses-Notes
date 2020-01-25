@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      // This is a Global Variable
+      let Name = "Hemdan";
+      function PrintName() {
+        document.write(Name);
+      }
+      PrintName();
+      document.write("<br>", Name);
+
+      function PrintNameVersion2() {
+        /* Local Variable Which is Defined Only
+        inside The Function PrintNameVersion2 */
+        let Name = "Abdallah Ahmed Hemdan";
+        document.write("<br>", Name);
+      }
+
+      // This Code Cuz an error (MyName is Undefined)
+      // document.write(MyName);
+      PrintNameVersion2();
+    </script>
+  </body>
+</html>

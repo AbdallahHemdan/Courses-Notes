@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        // ONLY ONE(NUMBER) ARGUMENT:
+        // Creates an array with length set to the number.
+        // The number must be a positive integer otherwise an error will be thrown.
+        // Note that the array has no property keys apart from length.
+        let Arr1 = new Array(5);
+        Arr1[0] = 0;
+        Arr1[1] = 1;
+        Arr1[2] = 2;
+        Arr1[3] = 3;
+        Arr1[4] = 4;
+        document.write("Array-1 Elements : " +
+            Arr1 + " Length : " + Arr1.length + "<br>");
+
+        // MORE THAN ONE ARGUMENTS:
+        // Creates a new array with the arguments as items.
+        // The length of the array is set to the number of arguments
+        let Arr2 = new Array(0, 1, 2, 3, 4, 5);
+        document.write("Array-2 Elements  : " +
+            Arr2[2] + " , Length : " + Arr2.length + "<br>")
+
+        // ONLY ONE(NUMBER) ARGUMENT:
+        // Creates an array with length set to the number.
+        // The number must be a positive integer otherwise an error will be thrown.
+        // Note that the array has no property keys apart from length.
+        let Arr3 = new Array(3);
+        document.write("Array-3 Elements  : " +
+            Arr3 + " Length : " + Arr3.length + "<br>")
+    </script>
+</body>
+
+</html>

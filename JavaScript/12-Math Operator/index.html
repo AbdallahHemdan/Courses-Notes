@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <script>
+      let x = 571 / 6;
+
+      document.write("x = ", x);
+      document.write("<br>");
+      document.write("Using toFixed : ");
+
+      /* toFixed Like Fixed Set Precision in C++ 
+        it Used To Control The Num of Digits To Print After
+        The floating Point  */
+      document.write(x.toFixed(4));
+      document.write("<br>");
+      document.write("Using toPrecision : ");
+
+      /* toPrecision Give You The Access To Control 
+        The Total Number of Digits To Print including
+        (The intger,The Floating) Parts */
+      document.write(x.toPrecision(4));
+      document.write("<br>");
+      document.write("-------------------------------------- <br>");
+
+      /*Here in JS We Can Use ++ , -- , += , -= , *= 
+        , ...etc Like The C++ */
+      let Num = 5;
+      document.write("Num Before The increment  = " + Num + "<br>");
+
+      ++Num;
+      document.write("Num After The increment  = " + Num + "  <br>");
+    </script>
+  </body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+
+    <script>
+      // This is The Constructor Function
+      function Person(Name, Age) {
+        this.Name = Name;
+        this.Age = Age;
+      }
+
+      let Hemdan = new Person("Hemdan", 20);
+      let Omar = new Person("Omar", 10);
+    </script>
+  </head>
+
+  <body>
+    <script>
+      document.write("Name: " + Hemdan.Name + ", Age: " + Hemdan.Age + "<br>");
+      document.write("Name: " + Omar.Name + ", Age: " + Omar.Age + "<br>");
+    </script>
+  </body>
+</html>

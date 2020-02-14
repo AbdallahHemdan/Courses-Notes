@@ -1,0 +1,21 @@
+.div1{
+	background-color: #EEE ;
+}
+.div2{
+	background-color:rgb(255,0,255);
+}
+	/* rgba() Like The rgb() 
+	but The fourth parameter For The Strength of The Color
+	the a ==> alpha Channel*/
+.div3{
+	width:20000px;
+	height:1800px;
+	background-color: rgba(255,255,255,0.2);
+	background-image:url('Ice_Ag.jpg');
+	background-repeat:no-repeat;
+	border:2px solid black;
+	/*background-attachment: ; by default is Scroll 
+	But When you Make it Fixed it will Be fixed while your scrolling */
+	background-attachment:fixed;
+	background-position: center;
+}   

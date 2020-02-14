@@ -1,0 +1,50 @@
+div{
+	width:500px;
+	background:#EEE;
+	margin:10px;
+	padding:10px;
+
+
+	color:blue;
+	letter-spacing: 3px;
+
+	/*Samples For Text Decoration is (Underline,overline,line-through)*/
+	text-decoration:underline;
+
+	/*text-indent is The space which We Make 
+	in The Paragraph in The First Line (Tech writing) */
+	text-indent: 40px;
+}
+
+	/*By Default The Href has Text Decoration(Underline)
+	 Here We Remove This Decoration*/
+
+a{
+	text-decoration: none;
+}
+
+/*The hover selector : is used to select elements when you mouse over them.
+	There are many Attributes For Hover Search For Them For More Details*/
+
+a:hover{
+	text-decoration: underline;
+	color:red;
+}
+span.capitalize{
+	/*text-transform used in transform the text from case to another
+	capitalize : Convert The First element of each Word To Upper case*/
+	text-transform: capitalize;
+}
+
+span.lowercase{
+	/*lowercase :used to transform The whole Text to lowercase*/
+	text-transform: lowercase;
+}
+
+span.uppercase{
+	text-transform: uppercase;
+}
+span.wordspacing{
+	word-spacing: 60px;
+	letter-spacing:3px;
+}

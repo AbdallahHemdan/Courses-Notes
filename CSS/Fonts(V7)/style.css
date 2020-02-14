@@ -1,0 +1,25 @@
+body{
+    background-size: 100%;
+}
+.Ham{
+    color:darkorange;
+   /* font size can take (madiam,samll,x-small,xx-small,large,x-large,xx-large)
+    instead of the value per pixel */
+    font-size:80px;
+    
+    font-weight:bold;
+    text-align:center;
+    
+    /*font-style :Like italic,normal,oblique*/
+    font-style:oblique;
+
+    /*There are many Font Families But We Should use Safe Font which
+    is Already Exists in All Users Browsers*/
+    font-family:"Bodoni MT";
+}
+#Google{
+    color:deeppink;
+}
+#CSS{
+    color:red;
+}

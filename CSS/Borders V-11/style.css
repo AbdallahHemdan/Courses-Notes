@@ -1,0 +1,25 @@
+#Border {
+  background: skyblue;
+  font-size: 50px;
+  color: crimson;
+  text-align: center;
+  width: 100%;
+  margin: 5px;
+  padding: 15p;
+
+  /*  in Border There are many Types instead of (Solid) Like
+    double , dotted , dashed , ... etc */
+
+  /* Also There are Many Chooices in Border Like
+    border-left , border-right , border-top , border-bottom */
+
+  /* Actualy all border attributes take 4 Values Width of (Top,Right,Bottom,Left) 
+    but if you Don't Entered Them By default They 'll Take The Value U Entered */
+  border-width: 3px;
+
+  border-style: solid;
+  border-color: rgb(255, 255, 0);
+
+  /* This Attributes equal The following Line */
+  /* border: 3px solid yellow; */
+}

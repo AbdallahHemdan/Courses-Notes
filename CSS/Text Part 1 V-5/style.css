@@ -1,0 +1,49 @@
+div{
+	width: 500px;
+	background:#DDD;
+
+	/*padding properties are used to generate space around an element's content*/
+	padding:10px;
+
+	/*margin properties are used to create space around elements	*/
+	/*
+	margin-top
+	margin-right
+	margin-bottom
+	margin-left
+	*/
+	margin:5px;
+	
+	/*	We Can Specify The Color Using Verious Ways 
+	Like (Name e.g red,Hexa e.g #FFF,rgb(),rgba()) */	
+	color:red;
+
+	/*direction has Two Values :
+	1. (ltr [Left To Right]=> English) || 2. (rtl [Right To Left]=> Arabic) */
+	direction: ltr; 
+
+	/*Used To Specify The Length of Spacing Between The Letters*/
+	letter-spacing:5px;
+
+	/*line-height Used To Specify The Height of The Line(Space Between Lines)*/
+	/*
+	We Can Give Value To line-height in Many Ways
+	1. normal
+	2. 10px;
+	3. 80%
+	*/
+	line-height: 130%;
+
+	/*The text-align property specifies the horizontal alignment of text in an element.*/
+	/*
+	left =>	Aligns the text to the left	
+	right => Aligns the text to the right	
+	center => Centers the text	
+	justify => Stretches the lines so that each line has equal width 
+	*/
+	text-align:center; 
+}
+.Arb{
+	direction: rtl;
+	color:blue;
+}

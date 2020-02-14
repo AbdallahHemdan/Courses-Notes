@@ -1,0 +1,15 @@
+ul{
+    /* List-style-type is the Type Of Poltix Which But Before The List item */
+    list-style-type:square;
+    
+    /*list-style-position is The position os The Poltix (Inside / Outside)*/
+    list-style-position:outside;
+
+    /*list-style-image used To Replace The poltix With image */
+    list-style-image: url('list-style-image-png-8.png');
+}
+
+/*Here I Made Border To See The Difference between inside/outside*/
+ul li{
+    border: 0.1px solid yellowgreen ;
+}

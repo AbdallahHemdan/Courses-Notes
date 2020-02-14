@@ -1,0 +1,11 @@
+body{
+    height: 3000px;
+    background-color:#DDD;  
+}
+.fixed{
+    background: seagreen;
+    color:white;
+    padding: 10px;
+    position: fixed;
+    top: 50px;
+}

@@ -1,0 +1,12 @@
+/* Here We will Convert The Display of The Span,Img, link
+From The Default(inline) To block */
+span{
+    display: block;
+}
+
+img{
+    display: inline-block;
+}
+a{
+    display: block;
+}

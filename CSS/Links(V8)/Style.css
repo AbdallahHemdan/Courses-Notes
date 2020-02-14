@@ -1,0 +1,23 @@
+a{
+    color:limegreen;
+    text-decoration: underline;
+    font-size:80px;
+}
+
+/*
+    The hover selector : is used to Change The attributes of The Element 
+when you mouse over them.There are many Attributes For Hover
+Search For Them For More Details.
+*/
+a:hover{
+    color:black;
+    font-weight:bold;
+}
+
+ /* The active selector is used to change The attribuites of the element
+    when you press on it */
+a:active{
+    color:blue;
+    text-decoration: underline;
+}
+

@@ -1,0 +1,13 @@
+#Heading {
+    background-color: rgb(16, 146, 253);
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    margin: auto;
+    width: 700px;
+
+    /* Actuly There Are Many Types of Padding 
+    (padding-left, padding-right, padding-top, padding-bottom) */
+    padding: 40px;
+}

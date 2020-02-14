@@ -1,0 +1,27 @@
+#Head {
+    background-color: aqua;
+    color: crimson;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-weight: bold;
+
+    /* Actualy There are different types of margin like
+        margin-left , margin-right, margin-top  margin-bottom */
+    margin: 20px;
+}
+
+#auto {
+    background-color: chartreuse;
+    color: black;
+    font-size: 40px;
+    text-align: center;
+
+    width: 500px;
+
+    /*margin:auto ==> used When We Use width , To Center The Margin
+    in The Page (auto = 0 auto) auto Means auto calculation */
+
+    margin: 50px auto;
+    /* ==> (Top = 50px, Right = auto, bottom = 50px, Left = auto )*/
+
+}

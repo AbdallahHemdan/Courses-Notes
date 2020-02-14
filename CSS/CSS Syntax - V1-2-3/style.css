@@ -1,0 +1,16 @@
+p{
+	color:red;
+	font-size:30px;
+	font-weight:bold;
+}
+.one{
+	color:orange;
+}
+.two{
+	color:black;
+}
+#three{
+	color:red;
+	font-size:40px;
+	font-weight:bold;
+}

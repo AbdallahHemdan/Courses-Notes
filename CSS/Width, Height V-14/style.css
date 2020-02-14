@@ -1,0 +1,37 @@
+.Width {
+    background: tomato;
+    width: 400px;
+    text-align: center;
+}
+
+.Child {
+    background: springgreen;
+    width: 300px;
+    min-width: 50px;
+    max-width: 250px;
+}
+
+
+/* There Are Two Attribuites besides (width) ==> (min-width), (max-width)
+Which Determite The Limits of the Width (min,max)
+*/
+
+/* 
+Let's Test Them using button Which By default its Width fit With The Length of the 
+The value of the button*/
+
+button {
+    background: #FFFFFF;
+    /* width: 170px; */
+    min-width: 50px;
+    max-width: 400px;
+}
+
+/* Also in Height There are Two attribuites (min-height , max-height)
+Which Limit The Height(Min, Max) */
+.height {
+    background: #ffff00;
+    width: 200px;
+    min-height: 80px;
+    max-height: 100px;
+}

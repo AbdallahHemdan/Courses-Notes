@@ -21,5 +21,5 @@
 - [MatLab](https://github.com/AbdallahHemdan/Courses-Notes/tree/master/Matlab)
 - [Type Writer](https://github.com/AbdallahHemdan/Courses-Notes/tree/master/Type%20Writer)
 - [Rotationl Icons](https://github.com/AbdallahHemdan/Courses-Notes/tree/master/Rotational%20Icons) 
-- [JavaScript](https://github.com/AbdallahHemdan/Courses-Notes/tree/master/ES6) 
+- [JavaScript ES6](https://github.com/AbdallahHemdan/Courses-Notes/tree/master/ES6) 
 

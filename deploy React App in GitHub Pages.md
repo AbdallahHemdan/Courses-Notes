@@ -6,6 +6,6 @@
 4. add `"predeploy": "npm run build", "deploy": "gh-pages -d build",` in `"scripts"` object.
 5. run `git remote add origin https://github.com/userName/projectName`
 6. run `git remote set-url origin https://github.com/userName/projectName`
-7. note : sometimes `5.`, `6.` are already run before as your in the original `.git`
+7. note : sometimes `5.`, `6.` are already run before as your in the original `.git` so message `fatal: remote origin already exists.` appears, just ignore it and goto `8.`
 8. npm run deploy
 9. congratulations your app is published in the link your provide in the `package.json`

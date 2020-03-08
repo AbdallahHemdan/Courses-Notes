@@ -2,7 +2,7 @@
 
 ## 📦 Modules
 
-### 1. 🔐 SignUp, LogIn and Forget password [✔]
+### 1. 🔐 SignUp, LogIn and Forget password
 
 - Log In
 - Sign up
@@ -72,16 +72,17 @@
 ### 7. 🎁 Premium and private sessions
 
 - Add / Remove Ads banners
-- Allow download for premium
 - Private sessions (No History or activities)
 
 ---
 
-### 8. 🎼 Playlists, Albums and Liked-Songs
+### 8. 🎼 Playlists, Albums,Liked-Songs and songs
 
 - Playlist
 - Albums
 - Liked-Songs
+- Single Song
+- Create playlist
 
 ---
 
@@ -91,8 +92,16 @@
 - Made for you (Random)
 - Favorite albums
 - Followed Artists
-- Create playlist
 
+## 10. 💎 Welcome, Suggest artists
+
+- Welcome x2
+  - With Log In
+  - Without Log In
+- Suggest Artist
+  
+## 🎯 Tasks
+  - SignUp/LogIn/ 
 ## 🏃‍♂️ Sprints
 
 - 1️⃣ 1st Sprint

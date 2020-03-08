@@ -99,30 +99,31 @@
   - With Log In
   - Without Log In
 - Suggest Artist
-  
-## 🎯 Tasks
-  - SignUp/LogIn/ 
+
+## 🎯 Pair of tasks
+
+1. X-Person
+
+   - 8 (🎼 Playlists, Albums,Liked-Songs and songs)
+   - 9 (📚 Your Library)
+
+2. X-Person
+
+   - 4 (🏡 Home page + Player)
+   - 6 (⌚ Handling queue and Activities)
+
+3. X-Person
+
+   - 2 (👨‍🦰 Profile Layout and profile settings)
+   - 7 (🎁 Premium and private sessions)
+
+4. X-Person
+
+   - 1 (🔐 SignUp, LogIn and Forget password)
+   - 10 (💎 Welcome, Suggest artists)
+
+5. X-Person
+   - 3 (🎤 Artist)
+   - 5 (🔎 Search)
+
 ## 🏃‍♂️ Sprints
-
-- 1️⃣ 1st Sprint
-
-  - X-Person
-
-    - LogIn
-    - SignUp
-    - Forget Password
-
-  - X-Person
-
-    - Profile
-    - Profile settings
-
-  - X-Person
-
-    - Artist Page userOverview
-
-  - X-Person
-
-    - Playlists
-    - Albums
-    - Liked-Songs

@@ -102,28 +102,26 @@
 
 ## 🎯 Pair of tasks
 
-1. X-Person
+1. Ahmed Walid
 
    - 8 (🎼 Playlists, Albums,Liked-Songs and songs)
    - 9 (📚 Your Library)
 
-2. X-Person
+2. Abdallah Hemdan
 
    - 4 (🏡 Home page + Player)
    - 6 (⌚ Handling queue and Activities)
 
-3. X-Person
+3. Ahmed Mahboub
 
    - 2 (👨‍🦰 Profile Layout and profile settings)
    - 7 (🎁 Premium and private sessions)
 
-4. X-Person
+4. Abdallah AbuSedo
 
    - 1 (🔐 SignUp, LogIn and Forget password)
    - 10 (💎 Welcome, Suggest artists)
 
-5. X-Person
+5. Ahmed Ashraf
    - 3 (🎤 Artist)
    - 5 (🔎 Search)
-
-## 🏃‍♂️ Sprints

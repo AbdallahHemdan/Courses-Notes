@@ -37,11 +37,10 @@
 
 ---
 
-### 4. 🏡 Home page + Player
+### 4. 🏡 Home page
 
 - Home
   - Layout with generes component
-- Player module
 
 ---
 
@@ -58,7 +57,7 @@
 
 ---
 
-### 6. ⌚ Handling queue and Activities
+### 6. ⌚ Handling queue, Activities  and Player
 
 - Handling queue
   - Remove
@@ -66,6 +65,7 @@
   - Edit its order
 - Friends activities (Desktop Feature)
   - Last played Or Currently played song
+- Player
 
 ---
 
@@ -109,8 +109,8 @@
 
 2. Abdallah Hemdan
 
-   - 4 (🏡 Home page + Player)
-   - 6 (⌚ Handling queue and Activities)
+   - 4 (🏡 Home page)
+   - 5 (🔎 Search)
 
 3. Ahmed Mahboub
 
@@ -124,4 +124,5 @@
 
 5. Ahmed Ashraf
    - 3 (🎤 Artist)
-   - 5 (🔎 Search)
+   - 6 (⌚ Handling queue, Activities and Player)
+   

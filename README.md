@@ -1,3 +1,11 @@
+<div align="center">
+  
+  ![Component 2](https://user-images.githubusercontent.com/40190772/81112268-ac41b680-8f1e-11ea-8a3d-374894fc0785.png)
+
+</div>
+
+<h3 align="center">Courses Notes</h3>
+
 <p align = "center"
 
 [![GitHub issues](https://img.shields.io/github/issues/AbdallahHemdan/Courses-Notes)](https://github.com/AbdallahHemdan/Courses-Notes/issues)

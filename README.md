@@ -1,6 +1,7 @@
 <div align="center">
   
-  ![Component 2](https://user-images.githubusercontent.com/40190772/81112268-ac41b680-8f1e-11ea-8a3d-374894fc0785.png)
+![Courses notes](https://user-images.githubusercontent.com/40190772/83953875-7a38b280-a844-11ea-82c9-e47e2fb28507.png)
+
 
 </div>
 
